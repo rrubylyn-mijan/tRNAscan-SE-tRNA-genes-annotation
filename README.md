@@ -48,4 +48,5 @@ awk '$NF != "pseudo" {print $1}' sumai_trnascan_output.txt | sort | uniq -c
 ```
 
 Maintainer:
+
 Ruby Mijan
