@@ -38,7 +38,7 @@ tRNAscan-SE -o /directory/where/this/saved/trna_result/glenn_trnascan_output.txt
 
 cd /home/user.name/trna_envs
 
-tRNAscan-SE -o /directory/where/this/saved/trna_result/sumai_trnascan_output.txt /directory/where/this/saved/wheat.fasta
+tRNAscan-SE -o /directory/where/this/saved/trna_result/wheat_trnascan_output.txt /directory/where/this/saved/wheat.fasta
 ```
 
 ## Post-processing
