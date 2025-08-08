@@ -36,7 +36,7 @@ tRNAscan-SE -o /directory/where/this/saved/trna_result/glenn_trnascan_output.txt
 #SBATCH -J trna_wheat
 #SBATCH -A genolabswheatphg
 
-cd /home/user.name/trna_envs
+cd /home/user.name/trna_envs/bin
 
 tRNAscan-SE -o /directory/where/this/saved/trna_result/wheat_trnascan_output.txt /directory/where/this/saved/wheat.fasta
 ```
