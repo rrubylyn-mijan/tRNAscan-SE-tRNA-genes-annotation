@@ -44,7 +44,7 @@ tRNAscan-SE -o /directory/where/this/saved/trna_result/wheat_trnascan_output.txt
 ## Post-processing
 
 ```bash
-awk '$NF != "pseudo" {print $1}' sumai_trnascan_output.txt | sort | uniq -c
+awk '$NF != "pseudo" {print $1}' wheat_trnascan_output.txt | sort | uniq -c
 ```
 
 Maintainer:
